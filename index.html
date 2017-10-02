@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 		<meta name="author" content="www.frebsite.nl" />
 		<meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes" />
 
@@ -50,9 +50,12 @@
 			        opened.close();
 			    }
 			</script>
+
 	</head>
+
 	<body class="o-page">
 		<div id="page">
+			<!-- Header -->
 			<div id="header">
 				<a href="#menu"></a>
 				<span id="Logo" class="svg">
@@ -60,9 +63,31 @@
 				</span>
 				<a class="backBtn" href="javascript:history.back();"></a>
 			</div>
-			<div class="subHeader"><i class="i-contact i-small"></i>Ocean / Contact</div>
-			<!-- MAP -->
-  <div class=container style="padding-top:0px;" id=wbk>
+			<div class="subHeader"><i class="i-home i-small"></i>复制影片地址粘贴到下方输入框立刻观看VIP视频</div>
+			
+			<!-- Banner -->
+			<div class="bannerPane">
+			  <section class="slider">
+				<div class="flexslider">
+				  <ul class="slides">
+					<li>
+						<img src="img/blog/1.jpg" />
+						</li>
+						<li>
+						<img src="img/blog/2.jpg" />
+						</li>
+						<li>
+						<img src="img/blog/3.jpg" />
+						</li>
+				  </ul>
+				</div>
+			  </section>
+			</div>
+			<!-- End Banner -->
+			
+			<!-- Content -->
+			<br>
+    <div class=container style="padding-top:0px;" id=wbk>
 	    <div class="alert alert-success alert-dismissible" role=alert>
 	    <button type=button class=close data-dismiss=alert>
 	    <span aria-hidden=true></span>
@@ -175,18 +200,16 @@
 				<a href="#" class="ico-tumblr" title="tumblr">tumblr</a>
 				<a href="#" class="ico-pinterest" title="pinterest">pinterest</a>
 			</div>
-						
-			<div class="subFooter">Copyright 2013. All rights reserved.</div>
-	<!-- Menu navigation -->
 			
-			<nav id="menu">
+			<!-- Menu navigation -->
+	<nav id="menu">
 				<ul>
 					<li>
 						<a href="index.html">
 							<i class="i-home i-small"></i>Home
 						</a>
 					</li>
-					<li>
+					<li class="Selected">
 						<a href="about.html">
 							<i class="i-about i-small"></i>About
 						</a>
@@ -212,7 +235,7 @@
 							<i class="i-shortcodes i-small"></i>Shortcodes
 						</a>
 					</li>
-					<li class="Selected">
+					<li>
 						<a href="contact.html">
 							<i class="i-contact i-small"></i>Contact
 						</a>
@@ -222,6 +245,7 @@
 		</div>
 	</body>
 </html>
+
 
 <script>
 (function(){
@@ -245,4 +269,8 @@
 	  {clearTimeout(t),location.href="weixin.html"}
 	  var t,ua=navigator.userAgent.toLowerCase();-1==ua.indexOf("phone")&&-1==ua.indexOf("pad")&&-1==ua.indexOf("android")&&(t=setTimeout("gomyurl()",1));
 
-</script>
+	</script>
+
+
+
+
