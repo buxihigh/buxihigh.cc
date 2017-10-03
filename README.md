@@ -1,2 +1,2 @@
-# buxihigh.github.io
+# buxihi.github.io
 视频网站
