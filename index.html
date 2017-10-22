@@ -28,7 +28,21 @@
       
 		<script LANGUAGE="JavaScript"> function click() { if (event.button==2) {alert('你想用右键干嘛？'); } } 
 		document.onmousedown=click</script>
-  
+
+		
+  <style type="text/css">
+		
+		.nav{
+		    position:fixed; /* 绝对定位，fixed是相对于浏览器窗口定位。 */
+		    top:0; /* 距离窗口顶部距离 */
+		    left:0; /* 距离窗口左边的距离 */
+		    width:100%; /* 宽度设置为100% */
+		    height:40px; /* 高度 */
+		    z-index:99; /* 层叠顺序，数值越大就越高。页面滚动的时候就不会被其他内容所遮挡。 */
+		}
+
+
+  </style>
  
 		  <meta name=keywords content="优酷VIP解析,爱奇艺VIP解析,腾讯VIP解析,乐视VIP解析,芒果VIP解析,全网视频解析,VIP在线解析,视频VIP在线解析,VIP视频在线解析"/>
 		  <meta name=description content="各位官人还在等什么，戳我进来！"/>
@@ -57,15 +71,16 @@
 	<body class="o-page">
 		<div id="page">
 			<!-- Header -->
-			<div id="header">
+			<div id="header" class="nav">
 				<a href="#menu"></a>
 				<span id="Logo" class="svg">
 					<img src="img/logo.svg" />
 				</span>
 				<a class="backBtn" href="javascript:history.back();"></a>
 			</div>
+
 			<div class="subHeader"><i class="i-home i-small"></i>复制影片地址粘贴到下方输入框观看VIP视频</div>
-			
+	  </div>	
 			<!-- Content -->
 			<br>
     <div class=container style="padding-top:0px;" id=wbk>
@@ -77,6 +92,7 @@
 	    </div>
 	    </div>
 	    </div>
+	 </div>
 
 
 
@@ -97,6 +113,7 @@
 	    	<span class="input-group-addon input-lg" style="width: 80px;">播放地址</span>
 	    	<input class="form-control input-lg" type=search placeholder="输入播放地址"  style="height: 50px;" id=url>
 	    </div>
+    	<br>
     	<br>
     	<div>
     	<button id=bf type=button class="btn btn btn-primary btn-lg btn-block" onclick="dihejk()">Go</button>
@@ -161,6 +178,7 @@
 				<a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a>
 				 <a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a>
 
+				 <a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a>
 				 <a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a>
 				 <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
 				 <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
@@ -201,37 +219,24 @@
 						</a>
 						<ul>
 							<li><a href="blog-single-post.html">First Post</a></li>
-							<li><a href="blog-single-post.html">Second Post</a></li>
+							<li>
+								<a href="blog-single-post.html">Second Post</a>
+							</li>
 						</ul>
 					</li>
 					<li>
 						<a href="gallery.html">
-							<i class="i-gallery i-small"></i>最新电影
+							<i class="i-gallery i-small"></i>小说大全
 						</a>
 					</li>
 					<li>
 						<a href="shortcodes.html">
-							<i class="i-shortcodes i-small"></i>最新电视剧
+							<i class="i-shortcodes i-small"></i>最新电影
 						</a>
 					</li>
 					<li>
 						<a href="contact.html">
-							<i class="i-contact i-small"></i>高分电视剧排行榜
-						</a>
-					</li>
-					<li>
-						<a href="gallery.html">
-							<i class="i-gallery i-small"></i>高分电影排行榜
-						</a>
-					</li>
-					<li>
-						<a href="shortcodes.html">
-							<i class="i-shortcodes i-small"></i>小说大全
-						</a>
-					</li>
-					<li>
-						<a href="contact.html">
-							<i class="i-contact i-small"></i>好玩手机游戏
+							<i class="i-contact i-small"></i>最热电视剧
 						</a>
 					</li>
 				</ul>
