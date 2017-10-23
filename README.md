@@ -1,2 +1,2 @@
-# lequtv.github.io
+# lequkk.com
 视频网站
