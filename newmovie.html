@@ -20,10 +20,26 @@
 <link href="css/newmx.css" rel="stylesheet" type="text/css">
 <div id="shareImage" style="display:none"><img src="/template/m/css/pic.jpg"></div>
 
+	 <style type="text/css">
+			
+			.nav{
+			    position:fixed; /* 绝对定位，fixed是相对于浏览器窗口定位。 */
+			    top:0; /* 距离窗口顶部距离 */
+			   /* left:0; /* 距离窗口左边的距离 */
+			    width:100%; /* 宽度设置为100% */
+			    height:40px; /* 高度 */
+			    z-index:99; /* 层叠顺序，数值越大就越高。页面滚动的时候就不会被其他内容所遮挡。 */
+			}
+
+
+	  </style>
+
+
 	</head>
 	<body class="o-page">
 		<div id="page">
-			<div id="header">
+		<!-- Header -->
+			<div id="header" class="nav">
 				<a href="#menu"></a>
 				<span id="Logo" class="svg">
 					<img src="img/logo.svg" />
@@ -142,7 +158,15 @@
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
 
+<div id="content">
+  <div id="resize_list">
+    <div class="c-box">
+      <div class="title">
+        <h2>热门影片推荐</h2>
+      </div>
 <div class="plist">
         <ul class="list_tab_img">
           
@@ -254,6 +278,8 @@
         </ul>
       </div>
     </div>
+  </div> 
+ </div>
 
 
 
