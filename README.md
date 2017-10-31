@@ -1,2 +1,2 @@
-# lequkk.xyz
+# lequkk.com
 视频网站
