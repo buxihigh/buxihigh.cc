@@ -2,288 +2,726 @@
 <html>
 	<head>
 		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
-		<meta name="author" content="www.frebsite.nl" />
 		<meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes" />
 
-		<title>爱奇艺、腾讯、优酷、VIP视频</title>
+		<title>院线最新电影</title>
 		<link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon">
 
-		<link type="text/css" rel="stylesheet" href="css/flexslider.css" />
-		<link type="text/css" rel="stylesheet" href="css/jquery.mmenu.all.css" />
 		<link type="text/css" rel="stylesheet" href="css/style.css" />
+		<link type="text/css" rel="stylesheet" href="css/jquery.mmenu.all.css" />
 
 		<script type="text/javascript" src="js/jquery.min.js"></script>
 		<script type="text/javascript" src="js/jquery.mmenu.min.all.js"></script>
 		<script type="text/javascript" src="js/jquery.flexslider.js"></script>
+		<script type="text/javascript" src="js/jquery.easy-pie-chart.js"></script>
 		<script type="text/javascript" src="js/o-script.js"></script>
 
+		<link href="css/newmx.css" rel="stylesheet" type="text/css">
 
-        <link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel=stylesheet />
-		
-		<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-		<link rel="shortcut icon" href="http://cdndx03.mmtrix.com/v.skt.li/v1.0/1482142499679/favicon.ico"/>
+<link rel="stylesheet" type="text/css" href="C:\Users\Administrator\Desktop\lequtv.github.io-master\节奏影院\css\jz.css">
 
-		<link rel=bookmark href=favicon.ico />
-<!--
-      
-		<script LANGUAGE="JavaScript"> function click() { if (event.button==2) {alert('你想用右键干嘛？'); } } 
-		document.onmousedown=click</script>
--->
+<div id="shareImage" style="display:none"><img src="/template/m/css/pic.jpg"></div>
 
-  <style type="text/css">
-		
-		.top1{
-		    position:fixed; /* 绝对定位，fixed是相对于浏览器窗口定位。 */
-		    top:0; /* 距离窗口顶部距离 */
-		   /* left:0; /* 距离窗口左边的距离 */
-		    width:100%; /* 宽度设置为100% */
-		    height:40px; /* 高度 */
-		    z-index:99; /* 层叠顺序，数值越大就越高。页面滚动的时候就不会被其他内容所遮挡。 */
-		}
+	 <style type="text/css">
+			
+			.nav1{
+			    position:fixed; /* 绝对定位，fixed是相对于浏览器窗口定位。 */
+			    top:0; /* 距离窗口顶部距离 */
+			   /* left:0; /* 距离窗口左边的距离 */
+			    width:100%; /* 宽度设置为100% */
+			    height:40px; /* 高度 */
+			    z-index:99; /* 层叠顺序，数值越大就越高。页面滚动的时候就不会被其他内容所遮挡。 */
+			}
+
+			
 
 
-  </style>
- 
-		  <meta name=keywords content="优酷VIP解析,爱奇艺VIP解析,腾讯VIP解析,乐视VIP解析,芒果VIP解析,全网视频解析,VIP在线解析,视频VIP在线解析,VIP视频在线解析"/>
-		  <meta name=description content="各位官人还在等什么，戳我进来！"/>
-<!--[if lt IE 9]><script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script><script src="http://libs.useso.com/js/respond.js/1.4.2/respond.min.js"></script><![endif]-->
-
-		  <script type="text/javascript">eval(function(p,a,c,k,e,d){e=function(c){return(c<a?"":e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)d[e(c)]=k[c]||e(c);k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('b a(){0 6=1.2("9").4;0 5=1.2("3");0 3=1.2("3").c;0 8=5.e[3].4;0 7=1.2("f");7.d=8+6}',16,16,'var|document|getElementById|jk|value|jkurl|diz|cljurl|jkv|url|dihejk|function|selectedIndex|src|options|player'.split('|'),0,{}))</script>
+	  </style>
 
 
-<!--
-			<script type="text/javascript">
-
-			    // 对浏览器的UserAgent进行正则匹配，不含有微信独有标识的则为其他浏览器
-			    var useragent = navigator.userAgent;
-			    if (useragent.match(/MicroMessenger/i) != 'MicroMessenger') {
-			        // 这里警告框会阻塞当前页面继续加载
-			        alert('已禁止本次访问：您必须使用微信内置浏览器访问本页面！');
-			        // 以下代码是用javascript强行关闭当前页面
-			        var opened = window.open('about:blank', '_self');
-			        opened.opener = null;
-			        opened.close();
-			    }
-			</script>
--->
 	</head>
-
 	<body class="o-page">
-		<div id="page" >
-			<!-- Header -->
-			<div id="header" class="top1" >
+		<div id="page">
+		<!-- Header -->
+			<div id="header" class="nav1">
 				<a href="#menu"></a>
 				<span id="Logo" class="svg">
 					<img src="img/logo.svg" />
 				</span>
+
 				<a class="backBtn" href="javascript:history.back();"></a>
 			</div>
 
+
+			<br/>
+			<br/>
+
+			<div class="subHeader"><i class="i-about i-small"></i>院线最新大片</div>	
+		</div>	
+
+
+				<div class="c-box "  style="background: #C7EDCC">
+
+				<section class="resources__cats container-fluid">
+
+				<h3 class="cat__title" style="font-size: 20px">最新电影
+				<a href="/list.php?p=1&c=1&t=latest" class="title--more" style="font-size: 20px">更多...</a>
+				</h3>
+
+
+				<div class="plist">
+					<ul class="list_tab_img cat__list clearfix">
+
+				           <li class="vod__item col-xs-4 col-sm-3 col-md-2 picsize">
+							<a href="/37561" class="item__link">
+							<div class="vod__img--responsive ">
+							<img src="http://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2388664586.jpg" class="vod__img lazyload">
+							<span class="vod__stat">高清</span>
+
+				              <label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >
+				             权利的游戏 第七季
+				             </label>
+				    		 </div>
+
+				    		 </a>
+							</li>
+
+
+				    		 <li class="vod__item col-xs-4 col-sm-3 col-md-2 picsize">
+								<a href="/36571" class="item__link">
+								<div class="vod__img--responsive">
+								<img src="http://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2498055621.jpg" class="vod__img lazyload">
+								<span class="vod__stat">高清</span>
+
+								 <label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >
+				             王牌保镖
+				             </label>
+								</div>
+								</a>
+							</li>
+
+							 <li class=" picsize vod__item col-xs-4 col-sm-3 col-md-2">
+								<a href="/37287" class="item__link">
+									<div class="vod__img--responsive">
+									<img src="http://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2501576396.jpg" class="vod__img lazyload">
+									<span class="vod__stat">更新至40集</span>
+									 <label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >
+				             小五当官
+				             </label>
+									</div>
+								</a>
+							</li>
+
+							 <li class="vod__item col-xs-4 col-sm-3 col-md-2 picsize">
+								<a href="/37638" class="item__link">
+									<div class="vod__img--responsive">
+									<img src="http://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2501769525.jpg" class="vod__img lazyload">
+									<span class="vod__stat">高清</span>
+									 <label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >
+				             全球风暴
+				             </label>
+									</div>
+								</a>
+							</li>
+
+							<li class="vod__item col-xs-4 col-sm-3 col-md-2">
+								<a href="/37626" class="item__link">
+								<div class="vod__img--responsive">
+								<img src="https://github.com/piyingxi/piyingxi.github.io/blob/master/view/vod/yinyishashou2049.JPEG?raw=true" class="vod__img lazyload">
+								<span class="vod__stat">高清</span>
+							<label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >
+				            银翼杀手
+				             </label>
+								</div>
+								</a>
+							</li>
+
+							<li class="vod__item col-xs-4 col-sm-3 col-md-2">
+								<a href="/37206" class="item__link">
+								<div class="vod__img--responsive">
+								<img src="http://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2499793218.jpg" class="vod__img lazyload">
+								<span class="vod__stat">高清</span>
+							<label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >
+				            羞羞的铁拳
+				             </label>
+								</div>
+								</a>
+											</li>
+							<li class="vod__item col-xs-4 col-sm-3 col-md-2">
+								<a href="/37050" class="item__link">
+									<div class="vod__img--responsive">
+									<img src="http://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2499792043.jpg" class="vod__img lazyload">
+									<span class="vod__stat">高清</span>
+
+							<label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >
+				            王牌特工2：黄金圈
+				             </label>
+									</div>
+								</a>
+							</li>
+
+							<li class="vod__item col-xs-4 col-sm-3 col-md-2">
+								<a href="/37416" class="item__link">
+									<div class="vod__img--responsive">
+									<img src="http://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2501863104.jpg" class="vod__img lazyload">
+									<span class="vod__stat">高清</span>
+							<label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >
+				            天才抢手
+				             </label>
+									</div>
+								</a>
+							</li>
+
+
+							<li class="vod__item col-xs-4 col-sm-3 col-md-2">
+								<a href="/37561" class="item__link">
+								<div class="vod__img--responsive">
+								<img src="http://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2388664586.jpg" class="vod__img lazyload">
+								<span class="vod__stat">高清</span>
+
+								<label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >
+				            暗夜守护者
+				             </label>
+								</div>
+								</a>
+							</li>
+
+
+							<li class="vod__item col-xs-4 col-sm-3 col-md-2">
+							<a href="/34997" class="item__link">
+							<div class="vod__img--responsive">
+							<img src="http://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2231932406.jpg" class="vod__img lazyload">
+							<span class="vod__stat">高清</span>
+							<label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >
+				            王牌特工：特工学院
+				             </label>
+							</div>
+							</a>
+							</li>
+
+
+							<li class="vod__item col-xs-4 col-sm-3 col-md-2">
+							<a href="/37760" class="item__link">
+							<div class="vod__img--responsive">
+							<img src="http://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2500451074.jpg" class="vod__img lazyload">
+							<span class="vod__stat">高清</span>
+
+							<label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >
+				            雷神3：诸神黄昏
+				             </label>
+							</div>
+							</a>
+
+
+							</li>
+							<li class="vod__item col-xs-4 col-sm-3 col-md-2">
+							<a href="/37319" class="item__link">
+							<div class="vod__img--responsive">
+							<img src="http://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2444367563.jpg" class="vod__img lazyload">
+							<span class="vod__stat">更新至35集</span>
+
+							<label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >
+				            维和步兵营
+				             </label>
+							</div>
+							</a>
+
+
+							</li>
+							<li class="vod__item col-xs-4 col-sm-3 col-md-2">
+							<a href="/37576" class="item__link">
+							<div class="vod__img--responsive">
+							<img src="http://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2502553277.jpg" class="vod__img lazyload">
+							<span class="vod__stat">更新至8集</span>
+							<label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >
+				            将军在上
+				             </label>
+							</div>
+							</a>
+							</li>
+
+
+							<li class="vod__item col-xs-4 col-sm-3 col-md-2">
+							<a href="/37450" class="item__link">
+							<div class="vod__img--responsive">
+							<img src="http://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2501803641.jpg" class="vod__img lazyload">
+							<span class="vod__stat">更新至23集</span>
+
+							<label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >
+				            特勤精英
+				             </label>
+							</div>
+							</a>
+							</li>
+
+
+							<li class="vod__item col-xs-4 col-sm-3 col-md-2">
+							<a href="/37126" class="item__link">
+							<div class="vod__img--responsive">
+							<img src="http://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2395879103.jpg" class="vod__img lazyload">
+							<span class="vod__stat">更新至50集</span>
+
+							<label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >
+				            大话西游之爱你一万年
+				             </label>
+
+							</div>
+							</a>
+							</li>
+
+
+							<li class="vod__item col-xs-4 col-sm-3 col-md-2">
+							<a href="/37569" class="item__link">
+							<div class="vod__img--responsive">
+							<img src="http://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2502470035.jpg" class="vod__img lazyload">
+							<span class="vod__stat">更新至2集</span>
+							<label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >
+				            行尸走肉 第八季
+
+				             </label>
+							</div>
+							</a>
+							</li>
+				     </ul>  
+		
+				</section>
+
+
+			<section class="resources__cats container-fluid">
+
+	           <h3 class="cat__title" style="font-size: 20px">最新电影
+				<a href="/list.php?p=1&c=1&t=latest" class="title--more" style="font-size: 20px">更多...</a>
+				</h3>
+
 				
-				<br/>
-				<br/>
-				<br/>
+				<div class="plist">
+					<ul class="list_tab_img cat__list clearfix">
+					<ul class="cat__list clearfix">
 
-			<div class="subHeader">
-				<i class="i-home i-small"></i>复制影片地址粘贴到下方输入框观看VIP视频
+						<li class="vod__item col-xs-4 col-sm-3 col-md-2">
+						<a href="/1201" class="item__link">
+						<div class="vod__img--responsive">
+						<img src="http://img3.doubanio.com/view/movie_poster_cover/lpst/public/p513344864.jpg" class="vod__img lazyload">
+						<span class="vod__stat">高清</span>
 
-			</div>
-	    </div>	
-			<!-- Content -->
+						<label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >
+				            行尸走肉 第八季
+
+				        </label>
+
+						</div>
+						</a>
+						</li>
+
+
+						<li class="vod__item col-xs-4 col-sm-3 col-md-2">
+						<a href="/35169" class="item__link">
+						<div class="vod__img--responsive">
+						<img src="http://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2404465999.jpg" class="vod__img lazyload">
+						<span class="vod__stat">高清</span>
+
+						<label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >
+				            弗兰克和洛拉
+
+				        </label>
+						</div>
+						</a>
+						</li>
+
+
+						<li class="vod__item col-xs-4 col-sm-3 col-md-2">
+						<a href="/37765" class="item__link">
+						<div class="vod__img--responsive">
+						<img src="http://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2358558172.jpg" class="vod__img lazyload">
+						<span class="vod__stat">高清</span>
+
+						<label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >
+				            死亡倒计时
+
+				        </label>
+						</div>
+						</a>
+						</li>
+
+
+						<li class="vod__item col-xs-4 col-sm-3 col-md-2">
+						<a href="/27727" class="item__link">
+						<div class="vod__img--responsive">
+						<img src="http://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2159068249.jpg" class="vod__img lazyload">
+						<span class="vod__stat">高清</span>
+						<label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >
+				            雷神
+
+				        </label>
+						</div>
+						</a>
+						</li>
+
+
+						<li class="vod__item col-xs-4 col-sm-3 col-md-2">
+						<a href="/27728" class="item__link">
+						<div class="vod__img--responsive">
+						<img src="http://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2156839164.jpg" class="vod__img lazyload">
+						<span class="vod__stat">高清</span>
+						<label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >			            
+				     	 雷神2：黑暗世界
+				        </label>
+						</div>
+						</a>
+						</li>
+
+
+						<li class="vod__item col-xs-4 col-sm-3 col-md-2">
+						<a href="/37770" class="item__link">
+						<div class="vod__img--responsive">
+						<img src="http://img3.doubanio.com/view/movie_poster_cover/lpst/public/p837723172.jpg" class="vod__img lazyload">
+						<span class="vod__stat">高清</span>
+
+						<label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >			  
+						盲点
+				        </label>
+						</div>
+						</a>
+						</li>
+
+
+						<li class="vod__item col-xs-4 col-sm-3 col-md-2">
+						<a href="/37769" class="item__link">
+						<div class="vod__img--responsive">
+						<img src="http://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2173911762.jpg" class="vod__img lazyload">
+						<span class="vod__stat">高清</span>
+
+						<label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >			  
+						盲点
+				        </label>
+
+						</div>
+						</a>
+						</li>
+
+
+						<li class="vod__item col-xs-4 col-sm-3 col-md-2">
+						<a href="/37768" class="item__link">
+						<div class="vod__img--responsive">
+						<img src="http://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2318483348.jpg" class="vod__img lazyload">
+						<span class="vod__stat">高清</span>
+
+						<label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >			  
+						残破的誓言
+				        </label>
+
+						</div>
+						</a>
+						</li>
+
+
+						<li class="vod__item col-xs-4 col-sm-3 col-md-2">
+						<a href="/37767" class="item__link">
+						<div class="vod__img--responsive">
+						<img src="http://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2314199212.jpg" class="vod__img lazyload">
+						<span class="vod__stat">高清</span>
+						<label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >			  
+						一次呼吸
+				        </label>
+						</div>
+						</a>
+						</li>
+
+
+						<li class="vod__item col-xs-4 col-sm-3 col-md-2">
+						<a href="/37766" class="item__link">
+						<div class="vod__img--responsive">
+						<img src="http://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2121386347.jpg" class="vod__img lazyload">
+						<span class="vod__stat">高清</span>
+						<label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >			  
+						战栗丛林
+				        </label>
+						</div>
+						</a>
+						</li>
+
+
+						<li class="vod__item col-xs-4 col-sm-3 col-md-2">
+						<a href="/37760" class="item__link">
+						<div class="vod__img--responsive">
+						<img src="http://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2500451074.jpg" class="vod__img lazyload">
+						<span class="vod__stat">高清</span>
+						<label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >			  
+						雷神3：诸神的黄昏
+				        </label>
+						</div>
+						</a>
+						</li>
+
+
+						<li class="vod__item col-xs-4 col-sm-3 col-md-2">
+						<a href="/37764" class="item__link">
+						<div class="vod__img--responsive">
+						<img src="http://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2396428546.jpg" class="vod__img lazyload">
+						<span class="vod__stat">高清</span>
+						<label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >			  
+						虐杀器官
+				        </label>
+						</div>
+						</a>
+						</li>
+
+
+						<li class="vod__item col-xs-4 col-sm-3 col-md-2">
+						<a href="/28789" class="item__link">
+						<div class="vod__img--responsive">
+						<img src="http://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2274615962.jpg" class="vod__img lazyload">
+						<span class="vod__stat">高清</span>
+						<label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >			  
+						自杀森林
+				        </label>
+						</div>
+						</a>
+						</li>
+
+
+						<li class="vod__item col-xs-4 col-sm-3 col-md-2">
+						<a href="/36874" class="item__link">
+						<div class="vod__img--responsive">
+						<img src="http://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2315886309.jpg" class="vod__img lazyload">
+						<span class="vod__stat">高清</span>
+
+						<label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >			  
+					    一级戒备
+				        </label>
+						</div>
+						</a>
+						</li>
+
+
+						<li class="vod__item col-xs-4 col-sm-3 col-md-2">
+						<a href="/36873" class="item__link">
+						<div class="vod__img--responsive">
+						<img src="http://img1.doubanio.com/view/movie_poster_cover/lpst/public/p1593414327.jpg" class="vod__img lazyload">
+						<span class="vod__stat">高清</span>
+						<label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >			  
+						沉默的羔羊
+				        </label>
+						</div>
+						</a>
+						</li>
+					</ul>
+	</section>
+
+		<section class="resources__cats container-fluid">
+		
+		 <h3 class="cat__title" style="font-size: 20px">最新电影
+				<a href="/list.php?p=1&c=1&t=latest" class="title--more" style="font-size: 20px">更多...</a>
+				</h3>
+
+	<!--	<section class="resources__cats container-fluid">   -->
+		<div class="plist">
+					<ul class="list_tab_img cat__list clearfix">
+					<ul class="cat__list clearfix">
+
+						<li class="vod__item col-xs-4 col-sm-3 col-md-2">
+						<a href="/37620" class="item__link">
+						<div class="vod__img--responsive">
+						<img src="http://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2232307523.jpg" class="vod__img lazyload">
+						<span class="vod__stat">更新至16集</span>
+						<label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >			  
+						碧海雄心
+				        </label>
+						</div>
+						</a>
+						</li>
+
+						<li class="vod__item col-xs-4 col-sm-3 col-md-2">
+						<a href="/37490" class="item__link">
+						<div class="vod__img--responsive">
+						<img src="http://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2474614716.jpg" class="vod__img lazyload">
+						<span class="vod__stat">更新至18集</span>
+
+						<label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >			  
+						青恋
+				        </label>
+						</div>
+						</a>
+						</li>
+
+						<li class="vod__item col-xs-4 col-sm-3 col-md-2">
+						<a href="/36800" class="item__link">
+						<div class="vod__img--responsive">
+						<img src="http://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2498440761.jpg" class="vod__img lazyload">
+						<span class="vod__stat">更新至20集</span>
+
+						<label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241 "  >			  
+						命中注定我爱你
+				        </label>
+						</div>
+						</a>
+						</li>
+
+						<li class="vod__item col-xs-4 col-sm-3 col-md-2">
+						<a href="/36069" class="item__link">
+						<div class="vod__img--responsive">
+						<img src="http://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2495370546.jpg" class="vod__img lazyload">
+						<span class="vod__stat">更新至54集</span>
+
+						<label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >			  
+						轩辕剑之汉之云
+				        </label>
+						</div>
+						</a>
+						</li>
+
+
+						<li class="vod__item col-xs-4 col-sm-3 col-md-2">
+						<a href="/37585" class="item__link">
+						<div class="vod__img--responsive">
+						<img src="http://img3.doubanio.com/view/movie_poster_cover/lpst/public/p887534146.jpg" class="vod__img lazyload">
+						<span class="vod__stat">更新至18集</span>
+
+						<label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >			  
+						虎符传奇
+				        </label>
+						</div>
+						</a>
+						</li>
+
+						<li class="vod__item col-xs-4 col-sm-3 col-md-2">
+						<a href="/37763" class="item__link">
+						<div class="vod__img--responsive">
+						<img src="http://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2502359320.jpg" class="vod__img lazyload">
+						<span class="vod__stat">更新至8集</span>
+
+						<label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >			  
+						开封奇谈
+				        </label>
+						</div>
+						</a>
+						</li>
+						
+						<li class="vod__item col-xs-4 col-sm-3 col-md-2">
+						<a href="/37762" class="item__link">
+						<div class="vod__img--responsive">
+						<img src="http://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2502168663.jpg" class="vod__img lazyload">
+						<span class="vod__stat">更新至12集</span>
+						<label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >			  
+						独步天下
+				        </label>
+						</div>
+						</a>
+						</li>
+
+						<li class="vod__item col-xs-4 col-sm-3 col-md-2">
+						<a href="/37756" class="item__link">
+						<div class="vod__img--responsive">
+						<img src="http://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2503542022.jpg" class="vod__img lazyload">
+						<span class="vod__stat">更新至2集</span>
+						<label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >			  
+						急诊科医生
+				        </label>
+						</div>
+						</a>
+						</li>
+
+
+						<li class="vod__item col-xs-4 col-sm-3 col-md-2">
+						<a href="/37470" class="item__link">
+						<div class="vod__img--responsive">
+						<img  src="http://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2324910927.jpg" class="vod__img lazyload">
+						<span class="vod__stat">完结</span>
+						<label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >			  
+						情满四合院
+				        </label>
+						</div>
+						</a>
+						</li>
+
+						<li class="vod__item col-xs-4 col-sm-3 col-md-2">
+						<a href="/37734" class="item__link">
+						<div class="vod__img--responsive">
+						<img src="http://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2502986367.jpg" class="vod__img lazyload">
+						<span class="vod__stat">更新至5集</span>
+
+						<label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >			  
+						凡人的品格
+				        </label>
+						</div>
+					    </a>
+						</li>
+
+						<li class="vod__item col-xs-4 col-sm-3 col-md-2">
+						<a href="/37616" class="item__link">
+						<div class="vod__img--responsive">
+						<img src="http://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2501803641.jpg" class="vod__img lazyload">
+						<span class="vod__stat">更新至17集</span>
+						<label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >			  
+						飞哥大英雄2之飞哥战队
+				        </label>
+						</div>
+						</a>
+						</li>
+
+
+						<li class="vod__item col-xs-4 col-sm-3 col-md-2">
+						<a href="/37450" class="item__link">
+						<div class="vod__img--responsive">
+						<img src="http://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2501803641.jpg" class="vod__img lazyload">
+						<span class="vod__stat">更新至23集</span>
+
+						<label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >			  
+						特勤精英
+				        </label>
+
+						</div>
+						</a>
+						</li>
+						
+						<li class="vod__item col-xs-4 col-sm-3 col-md-2">
+						<a href="/37288" class="item__link">
+						<div class="vod__img--responsive">
+						<img src="http://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2458418274.jpg" class="vod__img lazyload">
+						<span class="vod__stat">更新至22集</span>
+						<label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >			  
+						传奇大亨
+				        </label>
+
+						</div>
+						</a>
+						</li>
+
+						<li class="vod__item col-xs-4 col-sm-3 col-md-2">
+						<a href="/37176" class="item__link">
+						<div class="vod__img--responsive">
+						<img src="http://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2499498058.jpg" class="vod__img lazyload">
+						<span class="vod__stat">更新至32集</span>
+
+						<label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >			  
+						那片星空那片海2
+				        </label>
+						</div>
+						</a>
+						</li>
+
+						<li class="vod__item col-xs-4 col-sm-3 col-md-2">
+						<a href="/37741" class="item__link">
+						<div class="vod__img--responsive">
+						<img src="http://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2222839338.jpg" class="vod__img lazyload">
+						<span class="vod__stat">更新至4集</span>
+						<label  class="name" style="height:26px;line-height:26px; font-size: 16px; background: #223241  "  >			  
+						幸福满院 
+				        </label>
+						</div>
+						</a>
+						</li>
+					</ul>
+		</section>
+
+
+
+		</div>   
+</div>
 <!--
-    <div class=container style="padding-top:0px;" id=wbk>
-			
-		<br/>
-		<br/>	
+</main>
 
-	    <div class="col-md-14 column">
-	    <div class="panel panel-default">
-	    <div id=kj class=panel-body>
-
-	  <iframe src="http://220.194.199.186/11/l/k/w/m/lkwmopuagifgwxqsmjpzjuhgkdafnq/hd.yinyuetai.com/A8D8013C7563308DA9B1D30CA29475C1.flv?sc=282c7628d80e0be4&br=1101&vid=593108&aid=1046&area=US&vst=4&ptp=mv&autoplay=true&rd=yinyuetai.com" id=player width="100%" height="100%" allowTransparency="true" frameborder="0" scrolling="no"></iframe>
-	    </div>
-	    </div>
-	    </div>
-	 </div>
-
-
-
-
-	    <div class="col-md-14 column">
-	    <form method=get>
-	    <div class=input-group style="width: 100%;">
-        	<span class="input-group-addon input-lg" style="width: 80px; ">选择接口</span>
-    		<select class="form-control input-lg" id=jk>
-    		<option value="http://www.0335haibo.com/tong.php?url=">爱奇艺、腾讯、优酷、乐视、搜狐</option> 
-    		<option value="http://www.82190555.com/index/qqvod.php?url=">VIP通用解析1</option>
-    		<option value="http://api.47ks.com/webcloud/?v=">VIP通用解析2</option>
-    		<option value="http://000o.cc/jx/ty.php?url=">VIP通用解析3</option>
-    		</select>
-    	</div>
-    	<br/>
-	    	<div class=input-group style="width: 100%;">
-	    	<span class="input-group-addon input-lg" style="width: 80px;">播放地址</span>
-	    	<input class="form-control input-lg" type=search placeholder="输入播放地址"  style="height: 50px;" id=url>
-	    </div>
-    	<br>
-    	<br>
-    	<div>
-    	<button id=bf type=button class="btn btn btn-primary btn-lg btn-block" onclick="dihejk()">Go</button>
-    	</div>
-    	</form>
- 		</div>
-    	</div>
 -->
-
-		<div class="main-container" id="main" style="width:99%">
-		 <iframe src="http://www.lequkk.com/VIP.html" width="100%" height=450px frameborder="0" scrolling="no">
-		 您的浏览器不支持iframe，请升级
-		 </iframe>
-		</div>
-
-			<!--
-				<div>
-					
-						<IFRAME marginWidth=0 marginHeight=0 src="/sap_users_search1.php" frameBorder=0 width=750 height=800></IFRAME>
-						<Iframe src="https://lequtv.github.io/VIP.html" width="100%" height="100%" scrolling="no" frameborder="0" name="m"></iframe> 
-				</div>
-            -->
-
-		<div class="block" style="text-align:center;">
-				视频网址搜索后复制
-		</div>
-				
-				<div class="o-team"  >                                                                                
-					<div class="o-team-person"  onclick="window.open('http://www.iqiyi.com');">
-						<img src="img/team/iqiyi.jpg"  />
-						<h4>随心搜索</h4>
-						<div class="h-line50"></div>
-						<p><span class="c-red">Lorem ipsum</span> is simply dummy text</p>
-					</div>
-
-					<div class="o-team-person" onclick="window.open('https://v.qq.com/');">
-					<img src="img/team/tglogo.jpg" />
-						<h4>任意视频</h4>
-						<div class="h-line50"></div>
-						<p><span class="c-red">Lorem ipsum</span> is simply dummy text</p>
-					</div>
-
-					<div class="o-team-person"  onclick="window.open('https://www.youku.com/');">
-						<img src="img/team/yklogo.png" />
-						<h4>想看就看</h4>
-						<div class="h-line50"></div>
-						<p><span class="c-red">Lorem ipsum</span> is simply dummy text</p>
-
-					</div>
-				</div>
-
-				<div id="o-person-details-pane">
-					<div class="o-person-details">
-
-					</div>
-				</div>
-
-		<div class="block">
-				乐趣导航
-		</div>
-			
-		<div class="exploreSiteFullPane">
-				
-				<a href="#" class="explorePane active">
-					<span class="i-pane i-blue">
-						<i class="i-home"></i>
-					</span>
-					<h4>视频网站VIP</h4>
-				</a>
-				<a href="newmovie.html" class="explorePane middle">
-					<span class="i-pane i-blue">
-						<i class="i-about"></i>
-					</span>
-					<h4>最新电影</h4>
-				</a>
-
-				<a href="hotfilm.html" class="explorePane middle">
-					<span class="i-pane i-blue">
-						<i class="i-about"></i>
-					</span>
-					<h4>最火电视剧</h4>
-				</a>
-                
-				<a href="list.html" class="explorePane middle">
-					<span class="i-pane i-blue">
-						<i class="i-about"></i>
-					</span>
-					<h4>排行榜</h4>
-				</a>
-
-				<a href="getweb.html" class="explorePane middle">
-					<span class="i-pane i-blue">
-						<i class="i-about"></i>
-					</span>
-					<h4>电影网站</h4>
-				</a>
-
-                <a href="cartoon.html" class="explorePane middle">
-					<span class="i-pane i-blue">
-						<i class="i-about"></i>
-					</span>
-					<h4>动漫世界</h4>
-				</a>
-
-				<a href="bigm.html" class="explorePane middle">
-					<span class="i-pane i-blue">
-						<i class="i-blog"></i>
-					</span>
-					<h4>记录片</h4>
-				</a>
-
-			   <a href="lequfun.html" class="explorePane middle">
-					<span class="i-pane i-blue">
-						<i class="i-gallery"></i>
-					</span>
-					<h4>乐趣视频</h4>
-				</a>
-
-			   <a href="writer7.html" class="explorePane middle">
-					<span class="i-pane i-blue">
-						<i class="i-contact"></i>
-					</span>
-					<h4>微信推送</h4>
-				</a>
-			</div> 
-			
-			<!-- Social Icons -->
-
-			<div class="bdsharebuttonbox  socialMedia scl-grey " style="text-align:center">
-
-				<a href="#" class="bds_more" data-cmd="more" ></a>
-				<a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间" ></a>
-				<a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
-				<a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
-				<a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a>
-
-				 <a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a>
-				 <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
-				 <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
-				 <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间" ></a>
-				 
-			</div>
-
-<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{},"image":{"viewList":["qzone","weixin","tsina","sqq","tqq","renren"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","weixin","tsina","sqq","tqq","renren"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
-
-			
-    	<div class=copyright>
-    	<div class=container>
-    	<div class="row text-center">
-    	<div class=col-sm-12><br>
-    	<span>
-    	<a href="http://uuletao.com/" target=_blank>Copyright 2013 - 2017 All Rights Reserved.</a>
-    	</div>
-    	</div>
-    	</div>
-    	</div>
-
-			<!-- Menu navigation -->
 	<nav id="menu">
 				<ul>
 					<li>
@@ -345,36 +783,19 @@
 					</li>
 				</ul>
 			</nav>
+		
+
+
+
+						<!-- Menu navigation -->
+
 		</div>
+			<footer class="" style="margin-bottom: 80px;">
+			<p>如有侵权，请发邮件至<br /><a href="mailto:luohansong01@163.com">luohansong01@163.com</a></p>
+			</footer>
+
+		</div>
+
+
 	</body>
 </html>
-
-
-<script>
-(function(){
-    var bp = document.createElement('script');
-    var curProtocol = window.location.protocol.split(':')[0];
-    if (curProtocol === 'https'){
-   bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-  }
-  else{
-  bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-  }
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(bp, s);
-})();
-</script>
-
-<!--
-	 <script type="text/javascript">
-
-	  function gomyurl()
-	  {clearTimeout(t),location.href="weixin.html"}
-	  var t,ua=navigator.userAgent.toLowerCase();-1==ua.indexOf("phone")&&-1==ua.indexOf("pad")&&-1==ua.indexOf("android")&&(t=setTimeout("gomyurl()",1));
-
-</script>
--->
-
-
-
-
