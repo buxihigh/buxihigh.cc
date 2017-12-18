@@ -90,11 +90,11 @@ pre
 
 .subHeader, .subFooter { 
 	background-color:#233241;
-	font-size: 5px;
+	font-size: 15px;
 	color: #fff;
 	text-align: center;
 	line-height: 40px;
-	height: 40px;
+	height: auto;
 	padding: 0 10px;
 	position:relative;
 	width: 100%;
