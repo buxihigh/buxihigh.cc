@@ -88,9 +88,22 @@ pre
 	padding: 0 50px;
 }
 
-.subHeader, .subFooter { 
+.subHeader{ 
 	background-color:#233241;
 	font-size: 15px;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+	height: 40px;
+	padding: 0 10px;
+	position:relative;
+	width: 100%;
+ }
+
+
+ .subFooter { 
+	background-color:#233241;
+	font-size: 5px;
 	color: #fff;
 	text-align: center;
 	line-height: 40px;
